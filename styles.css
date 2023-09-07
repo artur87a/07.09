@@ -3,6 +3,7 @@ body
     /* background: radial-gradient(circle, rgba(180, 136, 58, 1) 0%, rgba(253, 85, 29, 1) 50%, rgba(119, 252, 69, 1) 150%); */
     background-color: rgb(139, 127, 113);
     font-family: 'Indie Flower', cursive;
+    font-size: 18px;
 }
 
 #container
@@ -16,8 +17,10 @@ margin-right: auto;
 
 #logo
 {
-color: white; 
+color: rgb(245, 221, 221); 
 margin-top: 20px;
+text-align: center;
+
 
 }
 
@@ -27,6 +30,7 @@ margin-top: 20px;
     font-weight: 900;
     letter-spacing: 8px;
    
+   
 }
 
 #navbar
@@ -34,8 +38,18 @@ margin-top: 20px;
 background-color: rgb(156, 157, 179);
  color: whitesmoke;
  margin-top: 20px;
- border-radius: 10px;
- padding: 10px;
+ border-radius: 20px;
+ padding: 20px;
+ font-size: 26px;
+ height: 30px;
+ text-align: center;
+ justify-content: end;
+letter-spacing: 12px;
+
+ 
+
+
+ 
 }
 
 #topbar
@@ -53,9 +67,99 @@ height: 192px;
 #topbarL
 {
     float: left;
-    width: 180px;
+    width: 178px;
     text-align: center;
     border-right: 2px dotted #cccccc;
+    
+    
 }
 
-#topbar
+#topbarR
+{
+float: left;
+width: 740px;
+padding: 10px;
+text-align: justify;
+font-size: 19px;
+
+}
+
+#sidebar
+{
+float: left;
+width: 148px;
+min-height: 620px;
+padding: 10px;
+background-color: rgb(149, 150, 179);
+text-align:center ;
+
+color: whitesmoke;
+
+}
+
+#content
+{
+float: left;
+padding: 40px;
+width: 752px;
+background-color: #8b8181;
+min-height: 560px;
+text-align: center;
+color: whitesmoke;
+
+}
+
+#footer
+{
+clear: both;
+color: rgb(19, 17, 17);
+text-align: center;
+padding: 20px;
+font-size: 14px;
+
+}
+
+.option
+{
+    float: left;
+    min-width: 50px;
+    height: 35px;
+    padding: 2px;
+    border-right: 2px dotted #444444;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.option:hover{
+background-color: #062ba3;
+cursor: pointer;
+border-radius: 10px;
+
+}
+
+.optionL
+{
+  height: 25px;
+  padding: 15px;
+  border-bottom: 2px solid #444444;  
+}
+
+.optionL:hover
+{
+background-color: #062ba3;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.dottedline
+{
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted #444444;
+}
+
+.bigW
+{
+    font-size: 30px;
+}
