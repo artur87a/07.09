@@ -1,0 +1,61 @@
+body
+{
+    /* background: radial-gradient(circle, rgba(180, 136, 58, 1) 0%, rgba(253, 85, 29, 1) 50%, rgba(119, 252, 69, 1) 150%); */
+    background-color: rgb(139, 127, 113);
+    font-family: 'Indie Flower', cursive;
+}
+
+#container
+{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+#logo
+{
+color: white; 
+margin-top: 20px;
+
+}
+
+.bigTitle
+{
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 8px;
+   
+}
+
+#navbar
+{
+background-color: rgb(156, 157, 179);
+ color: whitesmoke;
+ margin-top: 20px;
+ border-radius: 10px;
+ padding: 10px;
+}
+
+#topbar
+{
+background-color: rgb(149, 150, 179);
+color: white;
+padding:10px;
+margin-top: 20px;
+margin-bottom: 25px;
+height: 192px;
+
+
+}
+
+#topbarL
+{
+    float: left;
+    width: 180px;
+    text-align: center;
+    border-right: 2px dotted #cccccc;
+}
+
+#topbar
